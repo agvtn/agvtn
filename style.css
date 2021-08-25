@@ -1,12 +1,15 @@
 
 
 body { 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    }
+    background-color: black;
+}
 
 main { 
-     background-color: white;
-     color: background-color; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+#frontpagenav { 
+    grid-area: 2/2/5/5;
+    justify-content: center;
+    
 }
