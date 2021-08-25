@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body { 
     background-color: black;
@@ -13,10 +15,28 @@ main {
 h1 {
     color: white;
     text-align: center;
+   font-family: 'Bebas Neue', cursive;
+   font-size: 100px;
+
 
 }
 
-header { margin-bottom: 250px;}
+h2 {
+    color: white;
+    text-align: left;
+   font-family: 'Bebas Neue', cursive;
+   font-size: 40px;
+}
+
+#h1category {
+    color: white;
+    text-align: right;
+    font-size: 90px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+header { margin-bottom: 30px;}
 
 
 #frontpagenav { 
@@ -39,7 +59,7 @@ header { margin-bottom: 250px;}
     /* grid-template-columns: 1fr; */
     grid-auto-rows: minmax(300px, auto);
     text-align: center;
-    background-color: red;
+    background-image: url(images/ux.png);
     
 
 }
@@ -53,7 +73,7 @@ header { margin-bottom: 250px;}
     /* margin-top: 50px; */
     text-align: center;
     background-color: blue;
-
+    background-image: url(images/uxx.png);
 }
 
 #winter {
@@ -63,4 +83,12 @@ header { margin-bottom: 250px;}
     /* margin-top: 50px; */
     text-align: center;
     background-color:green;
+    background-image: url(images/ux.png);
 }
+
+a {
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
