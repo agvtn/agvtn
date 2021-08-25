@@ -5,11 +5,40 @@ body {
 }
 
 main { 
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 #frontpagenav { 
-    grid-area: 2/2/5/5;
-    justify-content: center;
+    text-align: center;
     
+}
+
+
+
+#categories {
+    display: grid;
+    grid-area: 2 / 1 / 2 / 4;
+}
+
+#summer {
+    
+    text-align: center;
+    background-color: red;
+
+}
+
+#fall {
+   
+    margin-top: 50px;
+    text-align: center;
+    background-color: blue;
+
+}
+
+#winter {
+    margin-top: 50px;
+    text-align: center;
+    background-color:green;
 }
