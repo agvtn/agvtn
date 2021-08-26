@@ -37,6 +37,25 @@ h3 {
     margin-top: 1px;
 }
 
+h4 {
+    color: blue;
+    text-align: right;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    margin-top: 1px;
+}
+h5 {
+    color: greenyellow;
+    text-align: right;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+p { color: white;
+    text-align:right;
+}
+
 #h1category {
     color: white;
     text-align: right;
