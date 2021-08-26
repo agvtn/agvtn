@@ -17,15 +17,24 @@ h1 {
     text-align: center;
    font-family: 'Bebas Neue', cursive;
    font-size: 100px;
+   margin-bottom: 1px;
 
 
 }
 
 h2 {
-    color: white;
+    color: black;
     text-align: left;
    font-family: 'Bebas Neue', cursive;
    font-size: 40px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    margin-top: 1px;
 }
 
 #h1category {
@@ -36,7 +45,7 @@ h2 {
 
 }
 
-header { margin-bottom: 30px;}
+header { margin-bottom: 50px;}
 
 
 #frontpagenav { 
@@ -52,6 +61,20 @@ header { margin-bottom: 30px;}
     display: grid;
     grid-area: 1 / 1 / 2 / 4;
 }
+
+#categories2 {
+    display: grid;
+    grid-area: 1 / 1 / 2 / 4;
+    column-gap: 30px;
+}
+
+#categories3 {
+    display: grid;
+    grid-area: 2 / 1 / 3 / 4;
+    column-gap: 30px;
+    margin-top: 150px;
+}
+
 
 #summer {
     display: grid; 
@@ -92,3 +115,61 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     }
+
+
+#product1 {
+    display: grid; 
+    grid-area: 2 / 1 / 2 / 2;
+    background-color: yellowgreen;
+    grid-auto-rows: minmax(400px, auto);
+    margin-right: 150px;
+    background-image: url(../static_products_assignment/images/1164-2.webp);
+    max-width: 100%;
+
+}
+
+#product2 {
+    display: grid; 
+    grid-area: 2 / 2 / 2 / 3;
+    background-color: blueviolet;
+    grid-auto-rows: minmax(400px, auto);
+    margin-left: 150px;
+    background-image: url(../static_products_assignment/images/1164-2.webp);
+
+}
+#product3 {
+    display: grid; 
+    grid-area: 2 / 3 / 2 / 4;
+    background-color: blanchedalmond;
+    grid-auto-rows: minmax(400px, auto);
+    background-image: url(../static_products_assignment/images/1164-2.webp);
+
+}
+
+#product4 {
+    display: grid; 
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: blanchedalmond;
+    grid-auto-rows: minmax(400px, auto);
+
+
+}
+
+/* #product4 {
+    display: grid; 
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: blanchedalmond;
+    grid-auto-rows: minmax(400px, auto);
+
+} */
+
+#product5 {
+    display: grid; 
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: blue;
+    grid-auto-rows: minmax(400px, auto);
+    margin-right: 500px;
+    margin-left: 500px;
+
+
+}
