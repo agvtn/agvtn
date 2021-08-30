@@ -16,12 +16,13 @@ function showProduct(product) {
   console.log(product);
   //soldOut onSale
   //grab template
-  const template = document.querySelector("#smallProductTemplate").textContent;
+  const template = document.querySelector("#smallProductTemplate").content;
   //clone it
   const copy = template.cloneNode(true);
   //change content
-  copy.querySelector(".subtle")
-    .textContent`${product.articletype} | ${product.brandname}`;
+  copy.querySelector(
+    ".subtle"
+  ).textContent = `${product.articletype} | ${product.brandname}`;
   copy.querySelector("h3").textContent = product.productdisplayname;
 
   if (product.soldout) {
