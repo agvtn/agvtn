@@ -11,6 +11,12 @@ main {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
+header {
+  margin-bottom: 50px;
+}
+
+/* Headings and paragraphs*/
+
 h1 {
   color: white;
   text-align: center;
@@ -54,16 +60,7 @@ p {
   text-align: right;
 }
 
-#h1category {
-  color: white;
-  text-align: right;
-  font-size: 90px;
-  font-family: "Oswald", sans-serif;
-}
-
-header {
-  margin-bottom: 50px;
-}
+/* nav & link */
 
 #frontpagenav {
   text-align: center;
@@ -71,24 +68,26 @@ header {
   grid-area: 2 / 2 / 2 / 3;
 }
 
+a {
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* category.html */
+
+#h1category {
+  color: white;
+  text-align: right;
+  font-size: 90px;
+  font-family: "Oswald", sans-serif;
+}
+
 #categories {
   display: grid;
   grid-area: 1 / 1 / 2 / 4;
 }
-
-.smallProduct {
-  display: grid;
-  grid-area: 1 / 1 / 2 / 4;
-  column-gap: 30px;
-}
-
-/* 
-#categories3 {
-    display: grid;
-    grid-area: 2 / 1 / 3 / 4;
-    column-gap: 30px;
-    margin-top: 150px;
-} */
 
 #summer {
   display: grid;
@@ -120,12 +119,21 @@ header {
   background-image: url(images/ux.png);
 }
 
-a {
-  color: white;
-  padding: 1em 1.5em;
-  text-decoration: none;
-  text-transform: uppercase;
+/* productlist.hmtl*/
+
+/*.smallProduct {
+  display: grid;
+  grid-area: 1 / 1 / 2 / 4;
+  column-gap: 30px;
 }
+
+/* 
+#categories3 {
+    display: grid;
+    grid-area: 2 / 1 / 3 / 4;
+    column-gap: 30px;
+    margin-top: 150px;
+} */
 
 /* #product1 {
     display: grid; 
