@@ -1,142 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100&family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100&family=Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
-body { 
-    background-color: black;
+body {
+  background-color: black;
 }
 
-main { 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 h1 {
-    color: white;
-    text-align: center;
-   font-family: 'Bebas Neue', cursive;
-   font-size: 100px;
-   margin-bottom: 1px;
-
-
+  color: white;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 100px;
+  margin-bottom: 1px;
 }
 
 h2 {
-    color: black;
-    text-align: left;
-   font-family: 'Bebas Neue', cursive;
-   font-size: 40px;
+  color: black;
+  text-align: left;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
 }
 
 h3 {
-    color: white;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
-    margin-top: 1px;
+  color: white;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  margin-top: 1px;
 }
 
 h4 {
-    color: blue;
-    text-align: right;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
-    margin-top: 1px;
+  color: blue;
+  text-align: right;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  margin-top: 1px;
 }
 h5 {
-    color: greenyellow;
-    text-align: right;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
-    margin-top: 1px;
+  color: greenyellow;
+  text-align: right;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  margin-top: 1px;
 }
 
-p { color: white;
-    text-align:right;
+p {
+  color: white;
+  text-align: right;
 }
 
 #h1category {
-    color: white;
-    text-align: right;
-    font-size: 90px;
-    font-family: 'Oswald', sans-serif;
-
+  color: white;
+  text-align: right;
+  font-size: 90px;
+  font-family: "Oswald", sans-serif;
 }
 
-header { margin-bottom: 50px;}
-
-
-#frontpagenav { 
-    text-align: center;
-    display: grid; 
-    grid-area: 2 / 2 / 2 / 3;
-    
+header {
+  margin-bottom: 50px;
 }
 
-
+#frontpagenav {
+  text-align: center;
+  display: grid;
+  grid-area: 2 / 2 / 2 / 3;
+}
 
 #categories {
-    display: grid;
-    grid-area: 1 / 1 / 2 / 4;
+  display: grid;
+  grid-area: 1 / 1 / 2 / 4;
 }
 
-#categories2 {
-    display: grid;
-    grid-area: 1 / 1 / 2 / 4;
-    column-gap: 30px;
+.smallProduct {
+  display: grid;
+  grid-area: 1 / 1 / 2 / 4;
+  column-gap: 30px;
 }
 
+/* 
 #categories3 {
     display: grid;
     grid-area: 2 / 1 / 3 / 4;
     column-gap: 30px;
     margin-top: 150px;
-}
-
+} */
 
 #summer {
-    display: grid; 
-    grid-area: 2 / 1 / 2 / 2;
-    /* grid-template-columns: 1fr; */
-    grid-auto-rows: minmax(300px, auto);
-    text-align: center;
-    background-image: url(images/ux.png);
-    
-
+  display: grid;
+  grid-area: 2 / 1 / 2 / 2;
+  /* grid-template-columns: 1fr; */
+  grid-auto-rows: minmax(300px, auto);
+  text-align: center;
+  background-image: url(images/ux.png);
 }
 
 #fall {
-   
-    display: grid; 
-    grid-area: 2 / 2 / 2 / 3;
-    /* grid-template-columns: 1fr; */
-    grid-auto-rows: minmax(150px, auto);
-    /* margin-top: 50px; */
-    text-align: center;
-    background-color: blue;
-    background-image: url(images/uxx.png);
+  display: grid;
+  grid-area: 2 / 2 / 2 / 3;
+  /* grid-template-columns: 1fr; */
+  grid-auto-rows: minmax(150px, auto);
+  /* margin-top: 50px; */
+  text-align: center;
+  background-color: blue;
+  background-image: url(images/uxx.png);
 }
 
 #winter {
-    display: grid; 
-    grid-area: 2 / 3 / 2 / 4;
-    grid-auto-rows: minmax(150px, auto);
-    /* margin-top: 50px; */
-    text-align: center;
-    background-color:green;
-    background-image: url(images/ux.png);
+  display: grid;
+  grid-area: 2 / 3 / 2 / 4;
+  grid-auto-rows: minmax(150px, auto);
+  /* margin-top: 50px; */
+  text-align: center;
+  background-color: green;
+  background-image: url(images/ux.png);
 }
 
 a {
-    color: white;
-    padding: 1em 1.5em;
-    text-decoration: none;
-    text-transform: uppercase;
-    }
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
-
-#product1 {
+/* #product1 {
     display: grid; 
     grid-area: 2 / 1 / 2 / 2;
     background-color: yellowgreen;
@@ -145,9 +136,9 @@ a {
     background-image: url(../static_products_assignment/images/1164-2.webp);
     max-width: 100%;
 
-}
+} */
 
-#product2 {
+/* #product2 {
     display: grid; 
     grid-area: 2 / 2 / 2 / 3;
     background-color: blueviolet;
@@ -163,16 +154,16 @@ a {
     grid-auto-rows: minmax(400px, auto);
     background-image: url(../static_products_assignment/images/1164-2.webp);
 
-}
+} */
 
-#product4 {
+/* #product4 {
     display: grid; 
     grid-area: 2 / 3 / 3 / 4;
     background-color: blanchedalmond;
     grid-auto-rows: minmax(400px, auto);
 
 
-}
+} */
 
 /* #product4 {
     display: grid; 
@@ -182,7 +173,7 @@ a {
 
 } */
 
-#product5 {
+/* #product5 {
     display: grid; 
     grid-area: 2 / 1 / 3 / 2;
     background-color: blue;
@@ -191,4 +182,4 @@ a {
     margin-left: 500px;
 
 
-}
+} */
