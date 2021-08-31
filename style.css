@@ -25,7 +25,7 @@ h1 {
   margin-bottom: 1px;
 }
 
-h2 {
+h2 .productlist {
   color: black;
   text-align: left;
   font-family: "Bebas Neue", cursive;
@@ -121,13 +121,17 @@ a {
 
 /* productlist.hmtl*/
 
+img {
+  max-width: 100%;
+}
+
 .subtle {
   color: ivory;
 }
 
 .productlist main {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px));
+  grid-template-columns: repeat(auto-fill, minmax(50px));
 }
 
 .productlist article {
