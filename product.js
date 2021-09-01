@@ -12,7 +12,7 @@ function showProduct(product) {
     product.productdisplayname;
 
   //PRODUCT DETAILS
-  document.querySelector(".price span").textContent = product.price;
+  document.querySelector(".price span ").textContent = product.price;
   document.querySelector(".discount span").textContent = product.discount;
   document.querySelector(".brandname span").textContent = product.brandname;
 
