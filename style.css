@@ -148,6 +148,7 @@ img {
   display: flex;
   flex-direction: column;
 }
+
 .productlist article.soldOut img {
   opacity: 0.5;
 }
