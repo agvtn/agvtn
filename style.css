@@ -68,10 +68,10 @@ h4 {
   margin-top: 1px;
 }
 h5 {
-  color: greenyellow;
+  color: white;
   text-align: left;
   font-family: "Bebas Neue", cursive;
-  font-size: 20px;
+  font-size: 40px;
   margin-top: 50px;
 }
 
@@ -200,17 +200,18 @@ img {
 
 /*PRODUCT*/
 
-/* .breadcrumbs {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50px));
-} */
-
 .product main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .product article {
-  text-align: left;
+  margin-top: 100px;
+}
+
+.breadcrumbs {
+  display: grid;
+  grid-area: 1/2;
 }
 
 /*.smallProduct {
