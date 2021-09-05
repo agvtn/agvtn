@@ -15,13 +15,13 @@ function showProduct(product) {
   document.querySelector(".price span ").textContent = product.price;
   document.querySelector(".discount span").textContent = product.discount;
   document.querySelector(".brandname span").textContent = product.brandname;
-
   document.querySelector(".id span").textContent = product.id;
-  document.querySelector(".category span").textContent = product.category;
-  document.querySelector(".subcategory span").textContent = product.subcategory;
   document.querySelector(".productionyear span").textContent =
     product.productionyear;
-  document.querySelector(".season span").textContent = product.season;
+
+  /*   document.querySelector(".season span").textContent = product.season; */
+  /*   document.querySelector(".category span").textContent = product.category;
+  document.querySelector(".subcategory span").textContent = product.subcategory; */
 
   document.querySelector(
     "img.productimage"
