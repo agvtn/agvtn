@@ -9,6 +9,16 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -16,6 +26,9 @@ main {
 }
 
 /* Headings and paragraphs*/
+p {
+  font-family: "Poiret One";
+}
 
 h1 {
   color: white;
@@ -31,10 +44,13 @@ h2 {
   font-family: "Bebas Neue", cursive;
   font-size: 40px;
 }
+h2:hover {
+  color: blue;
+}
 
 h3 {
   color: white;
-  text-align: center;
+  text-align: left;
   font-family: "Bebas Neue", cursive;
   font-size: 30px;
   margin-top: 1px;
@@ -136,7 +152,18 @@ img {
 }
 
 .subtle {
-  color: ivory;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  font-family: "Josefin sans";
+  line-height: 0.1px;
+}
+.discount {
+  color: greenyellow;
+  font-size: 20px;
+  text-align: right;
+  margin-right: 50px;
+  /* background: greenyellow; */
 }
 
 .productlist main {
@@ -150,15 +177,7 @@ img {
 }
 
 .productlist article.soldOut img {
-  opacity: 0.5;
-}
-
-.productlist article.soldOut::before {
-  content: "Sold Out";
-  position: absolute;
-  background: var(--color);
-  color: var(--background-color);
-  padding: 1rem;
+  opacity: 2;
 }
 
 .productlist article .discounted,

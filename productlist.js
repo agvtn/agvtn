@@ -36,15 +36,21 @@ function showProduct(product) {
   ).textContent = `${product.articletype} | ${product.brandname}`;
   copy.querySelector("h3").textContent = product.productdisplayname;
 
+  copy.querySelector(".price span ").textContent = product.price;
+  copy.querySelector(".discount span ").textContent = product.discount;
+
   if (product.soldout) {
     copy.querySelector("article").classList.add("soldOut");
   }
+
   if (product.discount) {
     copy.querySelector("article").classList.add("onSale");
 
     copy.querySelector(".discounted p").textContent =
-      product.price / product.discount;
+      "Now DKK " +
+      Math.round(product.price - (product.price * product.discount) / 100);
   }
+
   //grab parent
   const parent = document.querySelector("main");
   //append
