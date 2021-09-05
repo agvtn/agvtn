@@ -1,13 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100&family=Poiret+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: black;
 }
 
-html {
-  scroll-behavior: smooth;
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
+
+/* IMG */
 
 img {
   filter: grayscale(100%);
@@ -19,15 +27,11 @@ img:hover {
   -webkit-filter: grayscale(0);
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-
 /* Headings and paragraphs*/
 p {
   font-family: "Poiret One";
+  color: white;
+  text-align: left;
 }
 
 h1 {
@@ -68,12 +72,15 @@ h5 {
   text-align: left;
   font-family: "Bebas Neue", cursive;
   font-size: 20px;
-  margin-top: 1px;
+  margin-top: 50px;
 }
 
-p {
-  color: white;
-  text-align: left;
+h6 {
+  color: blue;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  margin-top: 1px;
+  text-align: center;
 }
 
 /* nav & link */
@@ -145,8 +152,6 @@ a {
   background-image: url(images/uxx.png);
 }
 
-/* productlist.hmtl*/
-
 img {
   max-width: 100%;
 }
@@ -163,7 +168,6 @@ img {
   font-size: 20px;
   text-align: right;
   margin-right: 50px;
-  /* background: greenyellow; */
 }
 
 .productlist main {
@@ -205,7 +209,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.product main article {
+.product article {
   text-align: left;
 }
 
